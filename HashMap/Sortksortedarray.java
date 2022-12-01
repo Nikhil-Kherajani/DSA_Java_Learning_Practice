@@ -13,7 +13,6 @@ public class Sortksortedarray {
         }
 
         int k = Integer.parseInt(br.readLine());
-        // write your code here
         PriorityQueue<Integer> pq = new PriorityQueue<>();
         for (int val : arr) {
             if (pq.size() >= k) {
