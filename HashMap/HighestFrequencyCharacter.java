@@ -1,4 +1,3 @@
-package nados;
 
 import java.util.*;
 
