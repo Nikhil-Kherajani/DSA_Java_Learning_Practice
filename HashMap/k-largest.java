@@ -33,5 +33,10 @@ class Main {
             list.add(pq.remove());
         }
 
+        for (int i = list.size() - 1; i >= 0; i--) {
+            int val = list.get(i);
+            System.out.print(val + " ");
+        }
+        System.out.println();
     }
 }
